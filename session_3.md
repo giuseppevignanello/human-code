@@ -1,6 +1,9 @@
 # human code
 
 ## Scegliere cosa guardare su Netflix
+<!-- 
+Perché ci si mette sempre un’ora a scegliere cosa guardare la sera? Certo è difficile mettere d’accordo i gusti di tutti, poi dipende anche in base al tempo (o al sonno) che abbiamo. Delle volte si pensa di vedere quel bel film che ci hanno consigliato, mentre altre volte si viene risucchiati da quella serie tv che ci tiene incollati allo schermo. Che senso di vuoto quando poi finisce!  -->
+
 
 CONTEXT: siamo cinque amici seduti sul divano di fronte alla tv
 
@@ -12,43 +15,15 @@ CONTEXT: siamo cinque amici seduti sul divano di fronte alla tv
         - scelgo una serie 
     - : ALTRIMENTI
         - scelgo un film o più puntate di una serie 
-- Chiedo AD OGNI amico di proporre un genere FINCHè non piace almeno a 3 su 5 quel tipo di genere
-
-
-
-    - chiedo AD OGNI amico se il genere del film/serie gli piace 
-        - ? SE c'è un amico a cui NON piace
-            - propongo un altro film/serie
-        - : ALTRIMENTI schiaccio play 
-
-
- 
+- Chiedo agli amici di proporre un genere: 
+    - ? SE piace ad almeno 3 su 5 
+        - si sceglie quel genere 
+          - entro nella categoria di quel genere 
+            - SCORRERE i film FINTANTO CHE non ce n'è uno che piaccia ad almeno a 3 su 5
+    - : ALTRIMENTI si continua a proporre
+   
 
 
 
 
 
-
-
-
-./ Durata
-./ Sonno 
-./ Gusti
-./ Film o serie 
-
-- Valutare il sonno dei partecipanti 
-        
-- Dedurre dal sonno il tempo a disposizione 
-        -?
-
-- Selezionare il proprio account 
-- Concordare i gusti dei partecipanti 
-- Controllare fra i consigliati 
-        ?
-- Controllare nella categoria del genere scelto 
-        ?
-
-- Verificare che tutti i partecipanti non abbiano visto il film o le serie
-
- 
-- Schiacciare play
